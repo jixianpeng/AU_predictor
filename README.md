@@ -10,7 +10,7 @@ All of the preprocessing about the boder image and segmented face also have been
 ### 3
 With all the pre-calculated data already,AU_Test.py could be used for prediction and the model could be re-trained with Aspect_based_train.py 
 ### 4
-Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you would like to retrain the model while the landmarks should be detected by a certain tool to which you have access.
+Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you would like to retrain the model while the landmarks should be detected by a certain tool to which you have access. In addition, the label files need to be add to the path ./Training_Set/, so do the path ./Validation_Set/. 
 
 # Dependency
     pytoch==1.1.0
