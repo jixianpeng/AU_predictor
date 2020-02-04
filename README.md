@@ -1,16 +1,16 @@
 # Note
 AU[1,2,4,6,12,15,20,25]
 
-1/
+### 1
 Due to the limition of file_size  and the off-line operation in this project,we give a cloud disk url https://pan.baidu.com/s/1rOgVD-5Lzz5gRqQt0f0t0g ,in which the segmented faces,border images and the landmarks stored.
 
-2/
+### 2
 All of the preprocessing about the boder image and segmented face also have been implemented in the data-seg-store.py
 
-3/
+### 3
 With all the pre-calculated data already,AU_Test.py could be used for prediction and the model could be re-trained with Aspect_based_train.py 
-4/
-Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you would like to retrain the model.Except the landmarks,
+### 4
+Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you would like to retrain the model while the landmarks should be detected by a certain tool to which you have access.
 
 # Dependency
     pytoch==1.1.0
