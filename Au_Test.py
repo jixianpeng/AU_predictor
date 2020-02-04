@@ -82,7 +82,7 @@ for v in videos:
         p = np.reshape(torch.argmax(out, dim=1).detach().cpu().numpy(), (1, 8))
         temp_total_p[int(frames[f + 2][0:-4:])-1]=p
 
-    np.savetxt('./prediction/'+v[0:-1]+'.txt',temp_total_p,fmt="%d",delimiter=',',header='AU1,AU2,AU4,AU6,AU12,AU15,AU20,AU25'+'\n',)
+    np.savetxt('./prediction/'+v[0:-1]+'.txt',temp_total_p,fmt="%d",delimiter=',',header='AU1,AU2,AU4,AU6,AU12,AU15,AU20,AU25',comments="")
 
 
 
