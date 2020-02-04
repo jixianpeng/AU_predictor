@@ -1,8 +1,8 @@
-# AU_predictor
+# Note
 AU[1,2,4,6,12,15,20,25]
 
 1/
-Due to the limition of file_size  and the off-line operation in this project,we give a cloud disk url https://pan.baidu.com/s/1rOgVD-5Lzz5gRqQt0f0t0g ,in which the segmented faces,border images and the landmarks stored.Please download,decompress and place them into the corresponding path in this project by the name,while the cropped_aligned frames and the original videos from the original dataset ,without any change, are not supplied. 
+Due to the limition of file_size  and the off-line operation in this project,we give a cloud disk url https://pan.baidu.com/s/1rOgVD-5Lzz5gRqQt0f0t0g ,in which the segmented faces,border images and the landmarks stored.
 
 2/
 All of the preprocessing about the boder image and segmented face also have been implemented in the data-seg-store.py
@@ -12,7 +12,14 @@ With all the pre-calculated data already,AU_Test.py could be used for prediction
 4/
 Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you would like to retrain the model.Except the landmarks,
 
-# Usage
+# Dependency
+    pytoch==1.1.0
+    numpy==1.16.4
+    opencv-python==4.1.1.26
+    Pillow==6.1.0
+    torchvision==0.4.1
+
+# Usage for test
 ### 1. Clone the repository
     git clone https://github.com/jixianpeng/AU_predictor.git 
     cd AU_predictor
