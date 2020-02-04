@@ -29,9 +29,10 @@ Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you w
     python3 ./Au_Test.py
     
 the results will be stored into ./prediction/, each file corrresponding to a file in the dataset by the name.
-### 5 post_processing (optional)
+### 5.post_processing (optional)
 After test prediction, original prediction would be stored in the ./prediction/. Then For smoothing, a option of post-processing could be conducted as following:
  
  
     python3 post_processing.py
+The prediction after the operation would be stored in the path ./post_prediction/.
 
