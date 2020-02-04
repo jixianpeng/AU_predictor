@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 import json
 import torchvision
-root_path='./cropped_aligned/'
+root_path='./train/cropped_aligned/'
 root_path_s='./train/seg/'
 root_path_boder='./train/boder/'
 train_path='./Training_Set/'
