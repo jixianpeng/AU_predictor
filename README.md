@@ -23,7 +23,7 @@ Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you w
 ### 1. Clone the repository
     git clone https://github.com/jixianpeng/AU_predictor.git 
     cd AU_predictor
-### 2. Download the landmarks,segmented faces and the border images from the [url](https://pan.baidu.com/s/1rOgVD-5Lzz5gRqQt0f0t0g). Decompress and place them into the corresponding path in this project by the name
-### 3. Adding the cropped_aligned frames and the original videos to the ./test/cropped_aligned/ and ./test/videos/ without any change.
+### 2. Download the landmarks,segmented faces and the border images from the [url](https://pan.baidu.com/s/1rOgVD-5Lzz5gRqQt0f0t0g). Decompress and place them into the corresponding path in this project by the name.
+### 3. Adding the cropped_aligned frames and the original videos to the ./test/cropped_aligned/ and ./test/videos/ without any change,Manually.
 ### 4.test
     python3 ./Au_Test.py
