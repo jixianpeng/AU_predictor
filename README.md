@@ -27,3 +27,5 @@ Same path structure as ./test/ are needed for the ./train/ and ./valid/ if you w
 ### 3. Adding the cropped_aligned frames and the original videos to the ./test/cropped_aligned/ and ./test/video/ without any change,Manually.
 ### 4.test
     python3 ./Au_Test.py
+    
+the results will be stored into ./prediction/, each file corrresponding to a file in the dataset by the name
